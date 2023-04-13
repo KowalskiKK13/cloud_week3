@@ -4,13 +4,26 @@ GET http://localhost:3000
 GET http://localhost:3000/help
 
 GET http://localhost:3000/oops
+
 ###
-
 POST http://localhost:3000/login
-
 content-Type: application/json
+
 {
     "username": "knk",
-    "password":"70998656k"
+    "password":"kamarul17"
+    //"name":"nizam",
+    //"email": "kamarul@yahoo.com"
 }
+
 ###
+POST http://localhost:3000/register
+content-type: application/json
+
+{
+    "username":"knk",
+    "password":"kamarul17",
+    "name":"nizam",
+    "email":"kamarul@yahoo.com"
+}
+
